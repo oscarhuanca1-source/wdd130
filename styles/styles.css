@@ -44,11 +44,18 @@ aside {
 main img {
     width: 150px;
     height: auto;
+    box-shadow: 0 0 0.5rem rgba(0 0 0 / .7);
 }
 
 aside img {
     width: 200px;
     height: auto;
+    box-shadow: 0 0 0.5rem rgba(0 0 0 / .7);
+}
+
+hr {
+    width: 22rem;
+    margin-left: 15px;
 }
 
 p {

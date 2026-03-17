@@ -44,13 +44,13 @@ aside {
 main img {
     width: 150px;
     height: auto;
-    box-shadow: 0 0 0.5rem rgba(0 0 0 / .7);
+    box-shadow: 0 0 0.5rem rgba(0 0 0 / .6);
 }
 
 aside img {
     width: 200px;
     height: auto;
-    box-shadow: 0 0 0.5rem rgba(0 0 0 / .7);
+    box-shadow: 0 0 0.5rem rgba(0 0 0 / .6);
 }
 
 hr {

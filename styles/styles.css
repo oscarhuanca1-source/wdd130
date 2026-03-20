@@ -17,6 +17,11 @@ aside {
     max-width: 840px;
 }
 
+nav {
+    background-color: #333;
+    padding: 1rem;
+}
+
 nav a {
     width: 20rem;
     margin: 1rem;

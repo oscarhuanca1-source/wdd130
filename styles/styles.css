@@ -5,8 +5,14 @@ html {
     font-style: normal;
 }
 
-nav,
-main,
+nav {
+    max-width: 840px;
+}
+
+main {
+    max-width: 840px;
+}
+
 aside {
     max-width: 840px;
 }
@@ -54,6 +60,10 @@ aside img {
     width: 200px;
     height: auto;
     box-shadow: 0 0 0.5rem rgba(0 0 0 / .6);
+}
+
+h1 {
+    color: #000;
 }
 
 hr {

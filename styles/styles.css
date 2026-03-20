@@ -18,6 +18,7 @@ nav {
     padding: 1rem;
     color: #eee;
     text-align: center;
+    display: block;
 }
 
 header a {

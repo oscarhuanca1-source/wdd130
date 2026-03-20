@@ -5,13 +5,13 @@ html {
     font-style: normal;
 }
 
-header,
+nav,
 main,
 aside {
     max-width: 840px;
 }
 
-header {
+nav {
     width: 20rem;
     margin: 1rem;
     background-color: #333;

@@ -71,7 +71,12 @@ hr {
     margin-left: 15px;
 }
 
-p {
+aside p {
+    padding: 0;
+    text-align: justify;
+}
+
+main p {
     padding: 0;
     text-align: justify;
 }

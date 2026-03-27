@@ -7,6 +7,10 @@
     /* dark slate blue */
     --accent2-color: #e9c46a;
     /* light golden yellow */
+    --white-color: #ffffff;
+    /* White */
+    --black-color: #000;
+    /* Black */
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -28,8 +32,21 @@ header, main, footer {
 }
 
 header {
-    background-color: var(--primary-color);
-    color: var(--accent2-color);
+    background-color: var(--white-color);
+}
+
+header img {
+    float: right;
+    width: 130px;
+}
+
+header a {
+    color: var(--black-color);
+    margin-top: 200px;
+}
+
+header a:hover{
+    color: cornflowerblue;
 }
 
 h1, h2 {

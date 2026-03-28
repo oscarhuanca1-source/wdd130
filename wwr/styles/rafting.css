@@ -89,9 +89,9 @@ article {
     height: auto;
 }
 
-.hero h1, article {
+.hero article {
     position: absolute;
-} 
+}
 
 .hero article img {
     height: 130px;
@@ -134,4 +134,3 @@ footer img {
     left: 650px;
     bottom: 50px;
 }
-

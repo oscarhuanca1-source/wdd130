@@ -26,7 +26,10 @@ body {
     color: var(--accent1-color);
 }
 
-header, main, footer {
+header,
+main,
+footer,
+h2 {
     width: 840px;
     margin: 0 auto;
 }
@@ -45,13 +48,15 @@ header a {
     margin-top: 200px;
 }
 
-header a:hover{
+header a:hover {
     color: cornflowerblue;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+    text-align: center;
 }
 
 h1 {
@@ -66,9 +71,16 @@ h1 {
     /* white text – make sure there is enough contrast with the background-color */
 }
 
-nav, p, section, article {
+nav,
+p,
+section,
+article {
     margin: 16px;
     padding: 8px;
+}
+
+.hero {
+    position: relative;
 }
 
 .hero img {
@@ -77,35 +89,48 @@ nav, p, section, article {
     height: auto;
 }
 
+.hero h1, article {
+    position: absolute;
+} 
+
+#note img {
+    height: 130px;
+    width: auto;
+    float: right;
+    margin-left: 20px;
+    bottom: 500px;
+}
+
 article {
     position: absolute;
     top: 400px;
     width: 100%;
-    margin: 0;
-    padding: 16px;
-    text-align: center;
+    margin: 0px 0px 0px 0px;
+    text-align: justify;
     opacity: 0.7;
     background-color: var(--accent1-color);
     color: #fff;
     /* white text – make sure there is enough contrast with the background-color */
 }
 
-
-
-
-.hero article img {
-    float: right;
-    width: 125px;
-}
-
 .socialmedia a {
     text-decoration: none;
 }
 
-.hero {
+h2 {
     position: relative;
+    padding: 20px;
+    margin-left: -24px;
+    background-color: var(--secondary-color);
+}
+
+footer {
+    background-color: var(--accent2-color);
 }
 
 footer img {
-    width: 20px;
+    width: 40px;
+    padding: 0px;
+    float: right;
 }
+

@@ -186,12 +186,15 @@ footer {
     color: var(--white-color);
 }
 
-.socialmedia {
+.socialmedia p {
     display: flex;
     text-decoration: none;
-    justify-content: space-between;
+    justify-content: center;
 }
 
+.socialweb a {
+    flex-direction: column;
+}
 /* footer {
     
 } */

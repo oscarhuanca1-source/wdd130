@@ -183,23 +183,25 @@ figure {
 footer {
     background-color: var(--accent1-color);
     color: var(--white-color);
+    padding: 0px 10px;
+}
+
+.socialmedia {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .socialmedia p {
+    margin: 0 auto;
+}
+
+.socialweb {
     display: flex;
-    text-decoration: none;
-    justify-content: center;
+    gap: 10px;
 }
 
-.socialweb a {
-    flex-direction: column;
-}
-/* footer {
-    
-} */
-
+/* Iconos */
 footer img {
     width: 40px;
-    left: 650px;
-    bottom: 50px;
 }

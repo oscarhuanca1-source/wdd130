@@ -23,7 +23,7 @@
 
 body {
     font-family: var(--body-font);
-    color: var(--accent1-color);
+    /* color: var(--accent1-color); */
 }
 
 header,
@@ -150,7 +150,7 @@ article {
     position: relative;
     padding: 20px;
     margin: 20px 0px;
-    opacity: 0.7;
+    opacity: 0.9;
     background-color: var(--accent1-color);
 
 }

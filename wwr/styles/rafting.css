@@ -5,7 +5,7 @@
     /* warm sand */
     --accent1-color: #264653;
     /* dark slate blue */
-    --accent2-color: #e9c46a;
+    --accent2-color: #312a93;
     /* light golden yellow */
     --white-color: #f5f5f5;
     /* White */
@@ -57,7 +57,7 @@ header a:hover {
 }
 
 header nav {
-    background-color: steelblue;
+    background-color: var(--accent2-color);
     padding: 1rem;
 }
 

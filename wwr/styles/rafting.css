@@ -88,13 +88,16 @@ h1 {
 }
 
 h2 {
+    background-color: var(--accent1-color);
     color: var(--secondary-color);
     text-align: center;
+    opacity: 0.9;
+    margin: 16px 0px;
+    padding: 16px;
 }
 
 nav,
 p,
-section,
 article {
     margin: 16px;
     padding: 8px;
@@ -140,15 +143,16 @@ article {
 
 .history {
     font-family: var(--heading-font);
-    color: var(--secondary-color);
+    color: var(--white-color);
 }
 
 .history p {
     position: relative;
     padding: 20px;
-    margin-left: 24px;
+    margin: 20px 0px;
     opacity: 0.7;
     background-color: var(--accent1-color);
+
 }
 
 /* .container {
@@ -157,8 +161,9 @@ article {
 } */
 
 .container {
+    font-family: var(--heading-font);
     display: grid;
-    grid-template-rows: 50px 130px;
+    grid-template-rows: 90px 130px;
     grid-template-columns: repeat(5, 20%);
     text-align: center;
 }
@@ -178,10 +183,13 @@ figure {
 
 footer {
     background-color: var(--accent1-color);
+    color: var(--white-color);
 }
 
-.socialmedia a {
+.socialmedia {
+    display: flex;
     text-decoration: none;
+    justify-content: space-between;
 }
 
 /* footer {
@@ -190,7 +198,6 @@ footer {
 
 footer img {
     width: 40px;
-    position: relative;
     left: 650px;
     bottom: 50px;
 }

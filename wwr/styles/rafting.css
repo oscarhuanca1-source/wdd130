@@ -68,10 +68,6 @@ header nav a {
     /* shorthand for white */
 }
 
-.hero {
-    text-align: center;
-}
-
 h1 {
     font-family: var(--heading-font);
     color: var(--primary-color);
@@ -101,6 +97,7 @@ article {
 
 .hero {
     position: relative;
+    text-align: center;
 }
 
 .hero img {
@@ -210,7 +207,6 @@ footer {
     gap: 10px;
 }
 
-/* Iconos */
 footer img {
     width: 40px;
 }

@@ -38,6 +38,7 @@ header {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    color: var(--white-color);
 }
 
 header img {
@@ -52,12 +53,6 @@ header a {
 
 header a:hover {
     color: cornflowerblue;
-}
-
-header nav {
-    background-color: var(--accent2-color);
-    padding: 1rem;
-    color: var(--white-color);
 }
 
 header nav a {

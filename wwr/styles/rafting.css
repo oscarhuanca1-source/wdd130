@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #055a05;
+    --primary-color: #fff;
     /* forest green */
     --secondary-color: #f4a261;
     /* warm sand */
@@ -56,16 +56,16 @@ header a:hover {
     color: cornflowerblue;
 }
 
-nav {
+header nav {
     background-color: steelblue;
     padding: 1rem;
 }
 
-nav a {
+header nav a {
     padding: 0.5rem;
     text-decoration: none;
     font-size: 1.2rem;
-    font-weight: 700;
+    font-weight: 100;
     color: #fff;
 
     /* shorthand for white */
@@ -85,7 +85,6 @@ h1 {
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
-    color: #fff;
 }
 
 h2 {
@@ -177,13 +176,17 @@ figure {
     align-items: center;
 }
 
+footer {
+    background-color: var(--accent1-color);
+}
+
 .socialmedia a {
     text-decoration: none;
 }
 
-footer {
-    background-color: var(--accent2-color);
-}
+/* footer {
+    
+} */
 
 footer img {
     width: 40px;

@@ -33,7 +33,7 @@ h2 {
 }
 
 header {
-    background-color: var(--white-color);
+    background-color: var(--accent2-color);
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;

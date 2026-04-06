@@ -1,0 +1,31 @@
+table {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    border-collapse: collapse;
+    border: 5px solid rgb(140, 140, 140);
+    /* border-top: 5px solid rgb(150, 150, 150);
+    border-bottom: 5px solid rgb(150, 150, 150);
+    border-right: 5px solid rgb(150, 150, 150);
+    border-left: 5px solid rgb(150, 150, 150); */
+    letter-spacing: 1px;
+}
+
+th,
+td {
+    border: 2px solid rgb(150, 150, 150);
+    padding: 20px 50px;
+    text-align: center;
+}
+
+thead tr {
+    background-color: olivedrab;
+    color: rgb(255, 255, 255);
+    font-weight:
+        700;
+    font-size: 40px;
+}
+
+tbody tr {
+    /* font-weight: 100; */
+    font-size: 25px;
+}

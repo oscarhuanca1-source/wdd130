@@ -17,7 +17,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 1px solid #000; */
+    border: 1px solid #000;
     /* background-color: khaki; */
 }
 
@@ -26,7 +26,9 @@ body {
     color: var(--accent1-color);
 }
 
-header, main, footer {
+header,
+main,
+footer {
     width: 840px;
     margin: 0 auto;
 }
@@ -82,56 +84,69 @@ header img {
 
 .user {
     padding: 10px;
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(2,50%);
     place-items: center;
 }
 
 iframe {
     border-radius: 10px;
     border: 2px solid rgb(0 0 0);
-    /* padding-right: 10px; */
+    margin: 10px;
 }
 
-/* .user2 {
-    padding-left: 10px;
-} */
-
-form {
-    margin: 0 auto;
-    padding: 1rem;
-    /* border: 1px solid rgb(0 0 0 / 0.1); */
-    border-radius: 0.5rem;
-    /* background-color: #eee; */
+.name,
+.email {
     display: grid;
-}
-
-label {
-    padding-right: 1rem;
-    font-size: 1rem;
-}
-
-form input, form button, 
-form textarea {
-    padding: 0.5rem;
-    font-size: 1rem;
+    grid-template-columns: 30% 70%;
     width: 100%;
-    display: block;
-    box-sizing: border-box;
+    padding: 10px 0;
 }
 
-form textarea {
-    resize: none;
+.user label {
+    display: flex;
+    align-items: center;
 }
 
-input[type="radio"] {
-    width: 150px;
-    height: 15px;
-    /* vertical-align: bottom; */
-}
-
-button {
+input[type="text"],[type="email"] {
     padding: 5px;
+}
+
+.radio {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.radio label {
+    padding: 10px 0;
+}
+
+.radio1 {
+    grid-row: 1/4;
+}
+
+.message label {
+    padding: 10px 0;
+    align-items: center;
+}
+
+.message textarea {
+    width: 100%;
+    resize: none;
+    padding: 5px ;
+}
+
+.subscribe {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 10px 0;
+}
+
+.submit button{
+    padding: 10px 0;
+    width: 100%;
+    border-radius: 5px;
 }
 
 .employee {
@@ -151,6 +166,8 @@ button {
     /* align-items: center; */
     border: 1.5px solid rgb(0 0 0);
     border-radius: 5px;
+    width: auto;
+    height: 100px;
 }
 
 footer {
@@ -176,4 +193,4 @@ footer {
 
 footer img {
     width: 40px;
-}   
+}

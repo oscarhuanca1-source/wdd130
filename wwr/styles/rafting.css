@@ -97,7 +97,7 @@ header a:hover {
     text-align: center;
 }
 
-.history h2 {
+.history h2, .container h2 {
     background-color: var(--accent1-color);
     color: var(--secondary-color);
     text-align: center;

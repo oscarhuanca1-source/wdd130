@@ -107,21 +107,32 @@ form {
 }
 
 label {
-    text-align: left;
     padding-right: 1rem;
-}
-
-input, button, 
-textarea {
-    padding: 0.5rem;
     font-size: 1rem;
 }
 
-/* input[type="radio"] {
+form input, form button, 
+form textarea {
+    padding: 0.5rem;
+    font-size: 1rem;
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+
+form textarea {
+    resize: none;
+}
+
+input[type="radio"] {
     width: 150px;
     height: 15px;
-    vertical-align: bottom;
-} */
+    /* vertical-align: bottom; */
+}
+
+button {
+    padding: 5px;
+}
 
 .employee {
     /* font-family: var(--heading-font); */
@@ -136,8 +147,10 @@ textarea {
     grid-column: 1/4;
 }
 
-figure {
-    align-items: center;
+.employee img {
+    /* align-items: center; */
+    border: 1.5px solid rgb(0 0 0);
+    border-radius: 5px;
 }
 
 footer {

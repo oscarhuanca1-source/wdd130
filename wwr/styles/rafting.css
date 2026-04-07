@@ -74,6 +74,10 @@ header a:hover {
     transition: 0.8s;
 }
 
+.hero-about {
+    position: relative;
+}
+
 .hero-about h1 {
     font-family: var(--heading-font);
     color: var(--primary-color);
@@ -113,11 +117,6 @@ header a:hover {
 .history p {
     margin: 16px;
     padding: 0px;
-}
-
-.hero-about {
-    position: relative;
-    text-align: center;
 }
 
 .hero-about article img {

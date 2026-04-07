@@ -55,7 +55,7 @@ header nav {
     grid-template-columns: repeat(4, 100px);
     grid-template-rows: 50px;
     place-items: center;
-    border-radius: 10px;    
+    border-radius: 10px;
 }
 
 header a {
@@ -97,7 +97,8 @@ header a:hover {
     text-align: center;
 }
 
-.history h2, .container h2 {
+.history h2,
+.container h2 {
     background-color: var(--accent1-color);
     color: var(--secondary-color);
     text-align: center;
@@ -106,7 +107,8 @@ header a:hover {
     padding: 16px;
 }
 
-.hero-about p, .history p{
+.hero-about p,
+.history p {
     margin: 16px;
     padding: 0px;
 }
@@ -149,7 +151,7 @@ header a:hover {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 50px 200px;
-    align-items: center; 
+    align-items: center;
     padding: 20px 0px;
     margin: 20px 0px;
     opacity: 0.9;
@@ -168,8 +170,8 @@ header a:hover {
 }
 
 .container h2 {
-    grid-column:  1/6;
-    text-align: center;  
+    grid-column: 1/6;
+    text-align: center;
 }
 
 figure {

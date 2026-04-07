@@ -260,6 +260,7 @@ input[type="text"],
     grid-template-columns: repeat(3, 1fr);
     place-items: center;
     text-align: center;
+    border-top: 5px solid rgb(0, 0, 0, 0.7);
 }
 
 .employee h2 {

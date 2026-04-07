@@ -55,6 +55,11 @@ header a:hover {
     color: cornflowerblue;
 }
 
+header nav {
+    /* background-color: var(--accent2-color); */
+    padding: 1rem;
+}
+
 header nav a {
     padding: 0.5rem;
     text-decoration: none;

@@ -17,168 +17,123 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* border: 1px solid #000; */
+    /* background-color: khaki; */
 }
 
 body {
     font-family: var(--body-font);
-    /* color: var(--accent1-color); */
+    color: var(--accent1-color);
 }
 
-header,
-main,
-footer,
-h2 {
+header, main, footer {
     width: 840px;
     margin: 0 auto;
 }
 
 header {
-    background-color: var(--accent2-color);
+    background-color: var(--accent1-color);
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     color: var(--white-color);
 }
 
 header img {
-    width: 130px;
+    width: 100px;
+    border-radius: 15px;
 }
 
-header a {
+.container nav {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: 50px;
+    place-items: center;
+    border-radius: 10px;
+}
+
+.container a {
     color: var(--white-color);
-    margin-top: 200px;
-
-}
-
-header a:hover {
-    color: cornflowerblue;
-}
-
-header nav a {
-    padding: 0.5rem;
     text-decoration: none;
-    font-size: 1.2rem;
-    font-weight: 100;
-    /* shorthand for white */
 }
 
-h1 {
-    font-family: var(--heading-font);
-    color: var(--primary-color);
-    position: absolute;
-    bottom: 450px;
-    width: 100%;
-    padding: 16px;
-    opacity: 0.9;
-    background-color: var(--accent1-color);
-    text-align: center;
+.container a:hover {
+    display: grid;
+    color: #7fdd7a;
+    width: 100px;
+    height: 50px;
+    border: 1px solid #7fdd7a;
+    border-radius: 10px;
+    place-items: center;
+    transition: 0.8s;
 }
-
-h2 {
-    background-color: var(--accent1-color);
-    color: var(--secondary-color);
-    text-align: center;
-    opacity: 0.9;
-    margin: 16px 0px;
-    padding: 16px;
-}
-
-nav,
-p,
-article {
-    margin: 16px;
-    padding: 0px;
-}
-
-.hero {
-    position: relative;
-    text-align: center;
-}
-
-/* .hero img {
-    display: block;
-    width: 100%;
-    height: auto;
-} */
-
-/* .hero article {
-    position: absolute;
-} */
 
 .hero h1 {
-    padding: 16px 0px;
-    margin-left: -10px;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 50px;
 }
 
-.hero article img {
-    height: 130px;
-    width: auto;
-    float: right;
-    margin-left: 20px;
-    bottom: 500px;
-}
-
-article {
-    position: absolute;
-    top: 400px;
-    width: 100%;
-    margin: 0px 0px 0px 0px;
-    padding: 10px;
-    text-align: justify;
-    opacity: 0.7;
-    background-color: var(--accent1-color);
-    color: #fff;
-    /* white text – make sure there is enough contrast with the background-color */
-}
-
-.history {
-    /* width: 0%; */
-    font-family: var(--heading-font);
-    background-color: var(--accent1-color);
-    color: var(--white-color);
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 50px 200px;
-    align-items: center; 
-    padding: 20px 0px;
-    margin: 20px 0px;
-    opacity: 0.9;
-}
-
-.history h2 {
-    grid-column: 1/5;
-}
-/* .history p {
-    
-    padding: 20px;
-    margin: 20px 0px;
-    opacity: 0.9;
-
-
-} */
-
-/* .container {
-    display: grid;
-        
-} */
-
-.container {
-    font-family: var(--heading-font);
-    display: grid;
-    grid-template-rows: 90px 130px;
-    grid-template-columns: repeat(5, 20%);
+.hero p {
+    padding: 5px;
     text-align: center;
 }
 
-.container h2 {
-    grid-column:  1/6;
-    text-align: center;  
+.user {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    place-items: center;
 }
 
-/* .img_adventure {
-    grid-template-rows: repeat(5, 20%);
+iframe {
+    border-radius: 10px;
+    /* padding-right: 10px; */
+}
+
+/* .user2 {
+    padding-left: 10px;
 } */
+
+form {
+    margin: 0 auto;
+    padding: 1rem;
+    /* border: 1px solid rgb(0 0 0 / 0.1); */
+    border-radius: 0.5rem;
+    /* background-color: #eee; */
+    display: grid;
+}
+
+label {
+    text-align: left;
+    padding-right: 1rem;
+}
+
+input, button, 
+textarea {
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+/* input[type="radio"] {
+    width: 150px;
+    height: 15px;
+    vertical-align: bottom;
+} */
+
+.employee {
+    /* font-family: var(--heading-font); */
+    display: grid;
+    grid-template-rows: 40px 150px;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    text-align: center;
+}
+
+.employee h2 {
+    grid-column: 1/4;
+}
 
 figure {
     align-items: center;
@@ -207,4 +162,4 @@ footer {
 
 footer img {
     width: 40px;
-}
+}   

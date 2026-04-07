@@ -83,6 +83,9 @@ header a:hover {
     opacity: 0.9;
     background-color: var(--accent1-color);
     text-align: center;
+    padding: 20px 0px;
+    font-size: 2.5rem;
+    margin-left: -10px;
 }
 
 .hero-contact h1 {
@@ -115,12 +118,6 @@ header a:hover {
 .hero-about {
     position: relative;
     text-align: center;
-}
-
-.hero-about h1 {
-    padding: 20px 0px;
-    font-size: 2.5rem;
-    margin-left: -10px;
 }
 
 .hero-about article img {

@@ -386,7 +386,6 @@ input[type="text"],
     border: 1px solid #000;
     background-color: var(--accent1-color);
     color: var(--white-color);
-    padding: auto;
     padding: 10px 20px;
     border-radius: 10px;
 }

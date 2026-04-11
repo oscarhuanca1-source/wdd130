@@ -95,10 +95,6 @@ header a:hover {
     margin-left: -10px;
 }
 
-.hero-about article img {
-    border-radius: 5px;
-}
-
 .hero-trips h1 {
     font-family: var(--heading-font);
     color: var(--primary-color);
@@ -182,11 +178,9 @@ hr {
 }
 
 .history {
-    /* font-family: var(--heading-font); */
     background-color: var(--accent1-color);
     color: var(--white-color);
     display: grid;
-    /* grid-template-columns: 1fr 1fr 1fr; */
     grid-template-rows: 60px 200px;
     align-items: center;
     text-align: center;
@@ -211,7 +205,6 @@ hr {
 
 .container h2 {
     grid-column: 1/6;
-    /* text-align: center; */
 }
 
 .history h2,
@@ -221,6 +214,7 @@ hr {
     margin: 10px 0px;
 }
 
+.hero-about article img,
 .history img,
 .container img {
     border-radius: 5px;
@@ -304,7 +298,6 @@ input[type="text"],
 .submit button:hover {
     color: #7fdd7a;
     transition: 0.9s;
-
 }
 
 .container-home {
